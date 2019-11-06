@@ -1,0 +1,180 @@
+body{
+    margin:auto;
+    position: relative;
+    background-color: lightblue;
+}
+
+.sounds{
+    position: fixed;
+    top:17%;
+    left:20%;
+    float: left;
+}
+
+.buttons{
+    position: fixed;
+    top: 12%;
+    left:50%;
+}
+
+#channel1Rec{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+}
+#channel1Rec:hover{
+    background-color: red;
+    width: 400px;
+}
+#channel1Rec:focus{
+    background-color: black;
+}
+
+#channel2Rec{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+}
+#channel2Rec:hover{
+    background-color: red;
+    width: 400px;
+
+}
+#channel2Rec:focus{
+    background-color: black;
+}
+
+#channel3Rec{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+}
+#channel3Rec:hover{
+    background-color: red;
+    width: 400px;
+}
+#channel3Rec:focus{
+    background-color: black;
+}
+
+#channel4Rec{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+}
+#channel4Rec:hover{
+    background-color: red;
+    width: 400px;
+}
+#channel4Rec:focus{
+    background-color: black;
+}
+
+
+#channel1play{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+
+}
+#channel1play:hover{
+    background-color: red;
+    width: 400px;
+
+}   
+#channel1play:focus{
+    background-color: black;
+}
+
+#channel2play{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+
+}
+#channel2play:hover{
+    background-color: red;
+    width: 400px;
+
+}   
+#channel2play:focus{
+    background-color: black;
+}
+
+#channel3play{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+
+}
+#channel3play:hover{
+    background-color: red;
+    width: 400px;
+
+}   
+#channel3play:focus{
+    background-color: black;
+}
+
+#channel4play{
+    width: 320px;
+    height: 80px;
+    background-color:green;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 5px;
+    transition: 0.5s 0s ease-in-out;
+    border-radius: 25px;
+
+}
+#channel4play:hover{
+    background-color: red;
+    width: 400px;
+
+}   
+#channel4play:focus{
+    background-color: black;
+}
