@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photoshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+            <button id="contrastAdd">Contrast</button>
+            <button id="brightness">Brighter</button>
+            <button id="darken">Darker</button>
+            <button id="bw">Black/White </button>
+            <button id="blur">Blur</button>
+            <button id="clearCanvas">Clear</button>
+            <input type="color" id="paintColor">
+            <label for="Color Picker" id="colors">Color Picker</label>
+
+    </div>
+    
+    <section id="photo">
+        <div class="border"></div>
+        <input id="loader" type="file">
+        <canvas id="canvas" width="1100" height="700"></canvas>
+    </section>
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>

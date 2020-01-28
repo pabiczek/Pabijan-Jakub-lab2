@@ -1,0 +1,159 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(97, 53, 62);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.border {
+    width: 1100px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+    background-color: rgb(97, 53, 58);
+}
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.wrapper {
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+#contrastAdd{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    bottom:100px;
+    left:20%;
+    position:absolute;
+    }
+    #contrastAdd:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+        color:white;
+    }
+
+
+#brightness{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    bottom:100px;
+    left:31%;
+    position:absolute;
+    }
+    #brightness:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+        color:white;
+    }
+
+#darken{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    bottom:100px;
+    left:26%;
+    position:absolute;
+    }
+    #darken:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+        color:white;
+    }
+
+#blur{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    bottom:100px;
+    left:37%;
+    position:absolute;
+    }
+    #blur:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+        color:white;
+    }
+
+#bw{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    bottom:100px;
+    left:41%;
+    position:absolute;
+    }
+    #bw:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+        color:white;
+    }
+
+#loader{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    top:100px;
+    left:307px;
+    position:absolute;
+}
+
+#clearCanvas{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    bottom:100px;
+    left:75%;
+    position:absolute;
+    }
+    #clearCanvas:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+        color:white;
+    }
+
+#paintColor{
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    top:100px;
+    left:4%;
+    position:absolute;
+}
+
+#colors{
+    top:165px;
+    left:70px;
+    position: absolute;
+    color: white;
+}
